@@ -31,4 +31,9 @@ public class HomeController {
 	public String product() {
 		return "product";
 	}
+	
+	@GetMapping("/forgot-password")
+	public String showForgotPassword() {
+		return "forgot_password.html";
+	}
 }
